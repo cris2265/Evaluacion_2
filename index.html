@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Usuario</title>
+    <link rel="stylesheet" href="./css/config.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="container">
+        <button id="addUserBtn" class="btn-primary">Agregar Nuevo Usuario</button>
+
+        <div class="new-user-form" id="newUserForm">
+            <input type="text" id="userName" placeholder="Nombre">
+            <input type="email" id="userEmail" placeholder="Correo electrónico">
+            <button id="submitUserBtn" class="btn-primary">Enviar</button>
+        </div>
+
+        <div class="user-list" id="userList"></div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
